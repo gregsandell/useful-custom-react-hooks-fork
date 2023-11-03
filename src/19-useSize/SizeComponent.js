@@ -8,6 +8,7 @@ export default function SizeComponent() {
   return (
     <>
       <div>{JSON.stringify(size)}</div>
+        <button >foo</button>
       <textarea ref={ref}></textarea>
     </>
   )
